@@ -106,7 +106,7 @@ namespace FinanaceSTA
             this.submitBtn.Font = new System.Drawing.Font("Courier New", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.submitBtn.Location = new System.Drawing.Point(412, 134);
             this.submitBtn.Name = "submitBtn";
-            this.submitBtn.Size = new System.Drawing.Size(100, 46);
+            this.submitBtn.Size = new System.Drawing.Size(136, 46);
             this.submitBtn.TabIndex = 7;
             this.submitBtn.Text = "submit";
             this.submitBtn.UseVisualStyleBackColor = true;
