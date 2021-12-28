@@ -1,0 +1,10 @@
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\bin\Debug\FinanaceSTA.exe.config
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\bin\Debug\FinanaceSTA.exe
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\bin\Debug\FinanaceSTA.pdb
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\obj\Debug\FinanaceSTA.csprojAssemblyReference.cache
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\obj\Debug\FinanaceSTA.Form1.resources
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\obj\Debug\FinanaceSTA.Properties.Resources.resources
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\obj\Debug\FinanaceSTA.csproj.GenerateResource.cache
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\obj\Debug\FinanaceSTA.csproj.CoreCompileInputs.cache
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\obj\Debug\FinanaceSTA.exe
+C:\Users\user1\OneDrive\Documents\Touro\Fall 2021\Practicum in Software Development\Finance\FinanaceSTA\FinanaceSTA\obj\Debug\FinanaceSTA.pdb
