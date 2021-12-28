@@ -36,6 +36,7 @@ namespace FinanaceSTA
             this.fromTb = new System.Windows.Forms.TextBox();
             this.toTb = new System.Windows.Forms.TextBox();
             this.answerTb = new System.Windows.Forms.TextBox();
+            this.submitBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -100,11 +101,22 @@ namespace FinanaceSTA
             this.answerTb.Size = new System.Drawing.Size(599, 205);
             this.answerTb.TabIndex = 6;
             // 
+            // submitBtn
+            // 
+            this.submitBtn.Font = new System.Drawing.Font("Courier New", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitBtn.Location = new System.Drawing.Point(412, 134);
+            this.submitBtn.Name = "submitBtn";
+            this.submitBtn.Size = new System.Drawing.Size(100, 46);
+            this.submitBtn.TabIndex = 7;
+            this.submitBtn.Text = "submit";
+            this.submitBtn.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.answerTb);
             this.Controls.Add(this.toTb);
             this.Controls.Add(this.fromTb);
@@ -128,6 +140,7 @@ namespace FinanaceSTA
         private System.Windows.Forms.TextBox fromTb;
         private System.Windows.Forms.TextBox toTb;
         private System.Windows.Forms.TextBox answerTb;
+        private System.Windows.Forms.Button submitBtn;
     }
 }
 
