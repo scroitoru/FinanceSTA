@@ -115,7 +115,7 @@ namespace FinanaceSTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 456);
             this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.answerTb);
             this.Controls.Add(this.toTb);
