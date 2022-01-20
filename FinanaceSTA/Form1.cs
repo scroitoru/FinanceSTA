@@ -37,7 +37,7 @@ namespace FinanaceSTA
                 sqlCmd.Parameters.Add("@Ticker", System.Data.SqlDbType.VarChar).Value = symbol;
                 sqlCmd.ExecuteNonQuery();
 
-                /**SqlDataAdapter da = new SqlDataAdapter(sqlCmd);
+                SqlDataAdapter da = new SqlDataAdapter(sqlCmd);
                 DataSet dataset = new DataSet();
                 da.Fill(dataset, "prices");
                 chrtPrices.DataSource = dataset.Tables[0];
@@ -48,7 +48,7 @@ namespace FinanaceSTA
                     chrtPrices.Series[0].Points.AddXY(table.Rows[ii][0], table.Rows[ii][1]);
                 }
                 Form1.ActiveForm.Text = symbol + " Closing Prices";
-                dgvDump.DataSource = table;**/
+                dgvDump.DataSource = table;
             }
 
             catch (Exception ex)

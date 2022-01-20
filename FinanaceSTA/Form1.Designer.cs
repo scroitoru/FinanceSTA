@@ -35,10 +35,11 @@ namespace FinanaceSTA
             this.toLbl = new System.Windows.Forms.Label();
             this.fromTb = new System.Windows.Forms.TextBox();
             this.toTb = new System.Windows.Forms.TextBox();
-            this.answerTb = new System.Windows.Forms.TextBox();
             this.submitBtn = new System.Windows.Forms.Button();
             this.tickerLbl = new System.Windows.Forms.Label();
             this.tickerTb = new System.Windows.Forms.TextBox();
+            this.dgvDump = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDump)).BeginInit();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -95,18 +96,10 @@ namespace FinanaceSTA
             this.toTb.Size = new System.Drawing.Size(100, 31);
             this.toTb.TabIndex = 5;
             // 
-            // answerTb
-            // 
-            this.answerTb.Location = new System.Drawing.Point(87, 219);
-            this.answerTb.Multiline = true;
-            this.answerTb.Name = "answerTb";
-            this.answerTb.Size = new System.Drawing.Size(599, 205);
-            this.answerTb.TabIndex = 6;
-            // 
             // submitBtn
             // 
             this.submitBtn.Font = new System.Drawing.Font("Courier New", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitBtn.Location = new System.Drawing.Point(629, 167);
+            this.submitBtn.Location = new System.Drawing.Point(635, 141);
             this.submitBtn.Name = "submitBtn";
             this.submitBtn.Size = new System.Drawing.Size(136, 46);
             this.submitBtn.TabIndex = 7;
@@ -130,15 +123,25 @@ namespace FinanaceSTA
             this.tickerTb.Size = new System.Drawing.Size(100, 31);
             this.tickerTb.TabIndex = 9;
             // 
+            // dgvDump
+            // 
+            this.dgvDump.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDump.Location = new System.Drawing.Point(33, 214);
+            this.dgvDump.Name = "dgvDump";
+            this.dgvDump.RowHeadersWidth = 82;
+            this.dgvDump.RowTemplate.Height = 33;
+            this.dgvDump.Size = new System.Drawing.Size(713, 372);
+            this.dgvDump.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 456);
+            this.ClientSize = new System.Drawing.Size(800, 617);
+            this.Controls.Add(this.dgvDump);
             this.Controls.Add(this.tickerTb);
             this.Controls.Add(this.tickerLbl);
             this.Controls.Add(this.submitBtn);
-            this.Controls.Add(this.answerTb);
             this.Controls.Add(this.toTb);
             this.Controls.Add(this.fromTb);
             this.Controls.Add(this.toLbl);
@@ -147,6 +150,7 @@ namespace FinanaceSTA
             this.Controls.Add(this.titleLabel);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDump)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,10 +164,10 @@ namespace FinanaceSTA
         private System.Windows.Forms.Label toLbl;
         private System.Windows.Forms.TextBox fromTb;
         private System.Windows.Forms.TextBox toTb;
-        private System.Windows.Forms.TextBox answerTb;
         private System.Windows.Forms.Button submitBtn;
         private System.Windows.Forms.Label tickerLbl;
         private System.Windows.Forms.TextBox tickerTb;
+        private System.Windows.Forms.DataGridView dgvDump;
     }
 }
 
