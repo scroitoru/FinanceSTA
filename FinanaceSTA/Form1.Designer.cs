@@ -37,6 +37,8 @@ namespace FinanaceSTA
             this.toTb = new System.Windows.Forms.TextBox();
             this.answerTb = new System.Windows.Forms.TextBox();
             this.submitBtn = new System.Windows.Forms.Button();
+            this.tickerLbl = new System.Windows.Forms.Label();
+            this.tickerTb = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -104,18 +106,37 @@ namespace FinanaceSTA
             // submitBtn
             // 
             this.submitBtn.Font = new System.Drawing.Font("Courier New", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitBtn.Location = new System.Drawing.Point(412, 134);
+            this.submitBtn.Location = new System.Drawing.Point(629, 167);
             this.submitBtn.Name = "submitBtn";
             this.submitBtn.Size = new System.Drawing.Size(136, 46);
             this.submitBtn.TabIndex = 7;
             this.submitBtn.Text = "submit";
             this.submitBtn.UseVisualStyleBackColor = true;
             // 
+            // tickerLbl
+            // 
+            this.tickerLbl.AutoSize = true;
+            this.tickerLbl.Font = new System.Drawing.Font("Trebuchet MS", 7.875F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tickerLbl.Location = new System.Drawing.Point(403, 143);
+            this.tickerLbl.Name = "tickerLbl";
+            this.tickerLbl.Size = new System.Drawing.Size(78, 27);
+            this.tickerLbl.TabIndex = 8;
+            this.tickerLbl.Text = "Ticker:";
+            // 
+            // tickerTb
+            // 
+            this.tickerTb.Location = new System.Drawing.Point(487, 143);
+            this.tickerTb.Name = "tickerTb";
+            this.tickerTb.Size = new System.Drawing.Size(100, 31);
+            this.tickerTb.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 456);
+            this.Controls.Add(this.tickerTb);
+            this.Controls.Add(this.tickerLbl);
             this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.answerTb);
             this.Controls.Add(this.toTb);
@@ -141,6 +162,8 @@ namespace FinanaceSTA
         private System.Windows.Forms.TextBox toTb;
         private System.Windows.Forms.TextBox answerTb;
         private System.Windows.Forms.Button submitBtn;
+        private System.Windows.Forms.Label tickerLbl;
+        private System.Windows.Forms.TextBox tickerTb;
     }
 }
 
