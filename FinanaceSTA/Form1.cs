@@ -30,8 +30,8 @@ namespace FinanaceSTA
 
                 SqlCommand sqlCmd = new SqlCommand("tradingPnl", sqlCon);  
                 sqlCmd.CommandType = CommandType.StoredProcedure;
-                sqlCmd.Parameters.Add("@StartDate", System.Data.SqlDbType.Date).Value = fromTb;
-                sqlCmd.Parameters.Add("@EndDate", System.Data.SqlDbType.Date).Value = toTb;
+                sqlCmd.Parameters.Add("@StartDate", System.Data.SqlDbType.Date).Value = dpStart;
+                sqlCmd.Parameters.Add("@EndDate", System.Data.SqlDbType.Date).Value = dpEnd;
                 sqlCmd.Parameters.Add("@Ticker", System.Data.SqlDbType.VarChar).Value = symbol;
                 sqlCmd.ExecuteNonQuery();
 
