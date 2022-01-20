@@ -28,7 +28,7 @@ namespace FinanaceSTA
                 sqlCon.Open(); // open a connection to the data base specified by sqlCon
                 String symbol = tickerTb.Text;
 
-                SqlCommand sqlCmd = new SqlCommand("spGetPrcForSymbol", sqlCon);  
+                SqlCommand sqlCmd = new SqlCommand("tradingPnl", sqlCon);  
                 sqlCmd.CommandType = CommandType.StoredProcedure;
                 sqlCmd.Parameters.Add("@StartDate", System.Data.SqlDbType.Date).Value = fromTb;
                 sqlCmd.Parameters.Add("@EndDate", System.Data.SqlDbType.Date).Value = toTb;
