@@ -16,8 +16,6 @@ namespace FinanaceSTA
         public Form1()
         {
             InitializeComponent();
-            answerTb.Multiline = true;
-            answerTb.ScrollBars = ScrollBars.Both;
         }
 
         private void submitBtn_Click(object sender, EventArgs e)
