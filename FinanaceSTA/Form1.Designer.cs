@@ -168,6 +168,7 @@ namespace FinanaceSTA
         private System.Windows.Forms.Label tickerLbl;
         private System.Windows.Forms.TextBox tickerTb;
         private System.Windows.Forms.DataGridView dgvDump;
+
     }
 }
 

@@ -40,13 +40,13 @@ namespace FinanaceSTA
                 SqlDataAdapter da = new SqlDataAdapter(sqlCmd);
                 DataSet dataset = new DataSet();
                 da.Fill(dataset, "prices");
-                chrtPrices.DataSource = dataset.Tables[0];
+                //chrtPrices.DataSource = dataset.Tables[0];
                 var table = dataset.Tables[0];
-                int nrPoints = table.Rows.Count;
+                /**int nrPoints = table.Rows.Count;
                 for (int ii = 0; ii < nrPoints; ++ii)
                 {
                     chrtPrices.Series[0].Points.AddXY(table.Rows[ii][0], table.Rows[ii][1]);
-                }
+                }**/
                 Form1.ActiveForm.Text = symbol + " Closing Prices";
                 dgvDump.DataSource = table;
             }
@@ -60,11 +60,9 @@ namespace FinanaceSTA
             finally
 
             {
-
                 if (sqlCon != null && sqlCon.State == System.Data.ConnectionState.Open)
 
                     sqlCon.Close();
-
             }
 
         }
